@@ -6,7 +6,9 @@ a{
 }
 
 body{
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 
 ul{
@@ -24,11 +26,104 @@ nav ul{
 
 .titulo{
     background-image:url(images/pic01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 18rem;
 }
 
 .caja_titulo{
     background-color: #231F22;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
+    height: 38%;
+    padding-top: 0.3rem;
+}
+.espacio{
+    height: 27%;
+}
+
+.contenedor_inicio{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.rayo{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 10px 0 10px 0 #EFEFEF;
+}
+.tuerca{
+    box-shadow: 10px 0 10px 0 #EFEFEF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.icono{
+    width: 7rem;
+    height: 6rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 74%, 50% 100%, 0 75%);
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+    #icono_tuerca{
+        background-color: #D52349;
+    }
+    #icono_rayo{
+        background-color: #252122;
+    }
+    #icono_estrella{
+        background-color: #827A7C;
+    }
+
+.botones_inicio [type="button"]{
+    color:white;
+    width: 13rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left:0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 3rem;
+    border: none;
+}
+.get_started{
+    background-color: #D52349;
+}
+.learn_more{
+    background-color: #252122;
+
+}
+
+.inicio{
+    margin-bottom: 3rem;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+.mi_portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:2rem ;
+    margin: 0 auto;
+}
+
+.mi_portfolio > div{
+    background-color: white;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    border-bottom: solid 2px #CCCCCC;
+    height: 30rem;
+    
+}
+
+.gris{
+    background-color: #F7F7F7;
+    padding-top: 2rem;
+}
+
+.mi_portfolio > div > p{
+    margin:1rem;
 }
