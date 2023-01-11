@@ -49,6 +49,9 @@ nav ul{
     justify-content: center;
     margin:0 auto;
 }
+.contenedor_inicio > div{
+    padding: 1rem;
+}
 
 .rayo{
     margin-left: 1rem;
@@ -57,8 +60,6 @@ nav ul{
 }
 .tuerca{
     box-shadow: 10px 0 10px 0 #EFEFEF;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .icono{
@@ -120,6 +121,10 @@ nav ul{
     
 }
 
+.mi_portfolio > div >img{
+    width: 100%;
+}
+
 .gris{
     background-color: #F7F7F7;
     padding-top: 2rem;
@@ -127,4 +132,43 @@ nav ul{
 
 .mi_portfolio > div > p{
     margin:1rem;
+    text-align: left;
 }
+
+.mi_portfolio > div > [type="button"]{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #252122;
+    margin-right: 7rem;
+    margin-top: 4rem;
+}
+
+.blog{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    text-align: left;
+}
+
+.blog > div > img{
+    width: 99%;
+}
+
+.caja1_blog{
+    background-color: white;
+}
+
+.caja2_blog{
+    background-color: white;
+}
+
+.botones_blog{
+    position: relative;
+}
+
+.botones_blog > [type="button"]{
+    background-color: red;
+    bottom: 0;
+}
+
