@@ -172,3 +172,74 @@ nav ul{
     bottom: 0;
 }
 
+.negro{
+    background-color: #252122;
+    color: white;
+    text-align: left;
+}
+
+
+.icono_meses{
+    height: 3rem;
+    width: 3.5rem;
+    background-color: #D52349;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    text-align: center;    
+    margin-top: 1.5rem;
+ 
+} 
+
+.caja_1A > div > div > p{
+    margin-top: 0.5rem;   
+}
+
+.caja_1A > div > div > h4{
+    margin-bottom: 0.5rem;
+    margin-top: 1.7rem;
+}
+
+.caja_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.caja_1A > div {
+    display: flex;
+    column-gap: 1rem;   
+}
+
+.boton_final > [type="button"]{
+    background-color: #D52349;
+    border: none;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+}
+
+.caja_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    width: 100%;
+}
+
+.caja_2A > p , .caja_2B > p {
+    text-decoration: underline;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: solid 1px #e6d4d457; 
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #252122;
+    border: #827A7C;
+
+
+
+
+
+   
+
