@@ -324,4 +324,34 @@ p{
 
 
    
+@media only screen and (max-width: 980px){
+    body{
+        width: 100%;
+    }
+    .mi_portfolio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    nav ul{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .mi_portfolio{
+        display: block;
+    }
+    .blog{
+        display: block;
+    }
+    .caja_1{
+        display: block;
+    }
+    .caja_2{
+        display: block;
+    }
+    .contenedor_inicio{
+        display: block;
+    }
+}
