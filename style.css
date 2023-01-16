@@ -276,6 +276,29 @@ p{
     padding-left: 2rem;
 }
 
+
+.jan_27 > .icono_meses > p{
+    color: white;
+}
+
+.jan_23 > .icono_meses > p{
+    color: white;
+}
+
+.jan_15 > .icono_meses > p{
+    color: white;
+}
+
+.jan_12 > .icono_meses > p{
+    color: white;
+}
+
+.jan_10 > .icono_meses > p{
+    color: white;
+}
+
+
+
 .iconos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -325,6 +348,11 @@ p{
 .espacio2{
     background-color: 252122 ;
     height: 1rem;
+}
+
+form{
+    display: grid;
+   
 }
 
 
