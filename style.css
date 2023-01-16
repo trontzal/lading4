@@ -240,6 +240,10 @@ nav ul{
     border-bottom: solid 1px #e6d4d457; 
 }
 
+.caja_2A > p:last-child, .caja_2B > p:last-child{
+    border:none; 
+}  
+
 .caja_2C {
     display: flex;
     flex-direction: column;
@@ -282,16 +286,21 @@ nav ul{
     position: 0 auto;
     width: 70%;
     margin: 0 auto;
-    height: 3rem;
-    margin-bottom: 3rem;
+    /* height: 3rem; */
+    margin-bottom: 2rem;
 
 }
 
 
 .footer1 , .footer2{
+    
     border-right: solid 1px;
 }
 
+.espacio2{
+    background-color: 252122 ;
+    height: 1rem;
+}
 
 
     
