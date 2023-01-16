@@ -7,7 +7,7 @@
 body{
     margin: 0 auto;
     text-align: center;
-    width: 80%;
+    width: 75%;
 }
 
 ul{
@@ -21,6 +21,17 @@ nav ul{
     justify-content:space-evenly;
     margin: 0 auto;
     width: 50%;
+    margin-bottom: 2rem;
+}
+
+p{
+    color: #5D5D5D;
+}
+
+[type="button"]{
+    color: white;
+    font-size: large;
+    border-radius: 3px;
 }
 
 .titulo{
@@ -36,6 +47,13 @@ nav ul{
     margin: 0 auto;
     height: 38%;
     padding-top: 0.3rem;
+    
+}
+.caja_titulo h2{
+    color: white;
+}
+.caja_titulo h3{
+    color: #D52349;
 }
 .espacio{
     height: 27%;
@@ -167,8 +185,15 @@ nav ul{
 }
 
 .botones_blog > [type="button"]{
-    background-color: red;
+    background-color: #D52349;
     bottom: 0;
+    height: 3rem;
+
+}
+
+.botones_blog > [type="button"]:last-child{
+    background-color: black;
+    margin-left: 0.5rem;
 }
 
 .negro{
@@ -308,4 +333,34 @@ nav ul{
 
 
    
+@media only screen and (max-width: 980px){
+    body{
+        width: 100%;
+    }
+    .mi_portfolio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    nav ul{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .mi_portfolio{
+        display: block;
+    }
+    .blog{
+        display: block;
+    }
+    .caja_1{
+        display: block;
+    }
+    .caja_2{
+        display: block;
+    }
+    .contenedor_inicio{
+        display: block;
+    }
+}
