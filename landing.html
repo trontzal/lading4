@@ -141,7 +141,28 @@
             </div>
         </div>
         </div>
+        
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Your message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            
+            <input id="submit_button" type="submit" value="Send email" />
 
+        </form>  
 
         <!-- parte negra -->
         <div class="negro">
@@ -250,23 +271,23 @@
                     <div class="iconos">
 
                         <div class="facebook">
-                            <img src="images/facebook.jpg"> 
+                            <i class="fa-brands fa-square-facebook"></i>
                         </div>
 
                         <div class="twitter">
-                            <img src="images/twitter.jpg"> 
+                            <i class="fa-brands fa-square-twitter"></i>                                                
                         </div>
 
                         <div class="balon">
-                            <img src="images/dribble.jpg">
+                            <i class="fa-brands fa-square-dribbble"></i>
                         </div>
 
                         <div class="tumbler">
-                            <img src="images/tumblr.jpg">
+                            <i class="fa-brands fa-square-tumblr"></i>
                         </div>
 
                         <div class="linkdin">
-                            <img src="images/linkedin.jpg">
+                            <i class="fa-brands fa-linkedin"></i>
                         </div>
 
                     </div>
@@ -286,27 +307,7 @@
                 </div>
             </div>
         
-            <div id="after_submit"></div>
-            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-              <div class="row">
-                <label class="required" for="name">Your name:</label><br />
-                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                <span id="name_validation" class="error_message"></span>
-              </div>
-              <div class="row">
-                <label class="required" for="email">Your email:</label><br />
-                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                <span id="email_validation" class="error_message"></span>
-              </div>
-              <div class="row">
-                <label class="required" for="message">Your message:</label><br />
-                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-                <span id="message_validation" class="error_message"></span>
-              </div>
-                
-                <input id="submit_button" type="submit" value="Send email" />
-
-            </form>  
+          
      <div class=footer>
         
         <div class="footer1">

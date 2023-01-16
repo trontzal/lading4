@@ -11,8 +11,15 @@ body{
 }
 
 ul{
-    list-style: none;
-    
+    list-style: none;   
+}
+
+  li:hover > a > p{
+    background-color: #D52349;
+}
+
+  li > a > p {
+    padding:1rem; 
 }
 
 nav ul{
@@ -166,6 +173,7 @@ p{
     grid-template-columns: 1fr 1fr;
     column-gap: 1.5rem;
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 .blog > div > img{
@@ -196,10 +204,32 @@ p{
     margin-left: 0.5rem;
 }
 
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color: #e6d4d457;
+    border: solid darkslategrey;
+}
+
+input{
+    background-color: white;
+}
+
+textarea{
+    background-color: white;
+}
+
+
 .negro{
     background-color: #252122;
     color: white;
     text-align: left;
+    margin-top: 2rem;
 }
 
 
@@ -304,7 +334,7 @@ p{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.iconos>div>img{
+.iconos > div > img{
     width: 3rem;
 }
 
@@ -336,6 +366,7 @@ p{
     margin: 0 auto;
     /* height: 3rem; */
     margin-bottom: 2rem;
+    margin-top: 2rem;
 
 }
 
@@ -350,10 +381,34 @@ p{
     height: 1rem;
 }
 
-form{
-    display: grid;
-   
+.iconos > .balon > i{
+    color: #D52349;
+    font-size: 3rem;
 }
+
+.iconos > .facebook > i{
+    color: #888888;
+    font-size: 3rem;
+}
+
+.iconos > .twitter > i{
+    color: #1D9BF0;
+    font-size: 3rem;
+}
+
+.iconos > .tumbler > i{
+    color: #2B4661;
+    font-size: 3rem;
+}
+
+.iconos > .linkdin > i{
+    color: #888888;
+    font-size: 3rem;
+}
+
+
+
+
 
 
     
